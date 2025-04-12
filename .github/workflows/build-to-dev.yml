@@ -38,7 +38,7 @@ jobs:
           git checkout --orphan dev
           git reset
 
-               shopt -s extglob
+          shopt -s extglob
           rm -rf !(dist|.git)
           shopt -u extglob
 
